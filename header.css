@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.header-logo{
+    display: flex;
+}
+.header-logo .logo{
+    width: 33px;
+height: 33px;
+}
+.header-logo a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+        margin: 5px 5px;
+        margin-left: 30px;
+
+}
+
+.navbar{
+    margin: 50px;
+    width: 85%;
+    display: flex;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+}
+.navbar li{
+    display: inline;
+    list-style: none;
+    margin: 0px 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+    background-color:  #7A9CA5;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:10px;
+    border: 1px solid #7A9CA5;
+    color: white;
+    margin-left: 50px
+    
+}
+.button i{
+padding: 8px;
+}
+#pages{
+    border: hidden;
+}
+
